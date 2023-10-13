@@ -1,0 +1,41 @@
+{
+  "name": "SEARCHER #2434",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/2434.png",
+  "edition": 2434,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Eden"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Purple Reign"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Cyber Jacket"
+    },
+    {
+      "trait_type": "Full Face Mask",
+      "value": "Kabuto Samurai"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2434.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

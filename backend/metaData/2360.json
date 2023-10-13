@@ -1,0 +1,49 @@
+{
+  "name": "SEARCHER #2360",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/2360.png",
+  "edition": 2360,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Tribal"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Spirit"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Cyborg"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Grills And Scars"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloody Eyes"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cyber Rich Hat"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2360.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

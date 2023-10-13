@@ -1,0 +1,45 @@
+{
+  "name": "SEARCHER #764",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/764.png",
+  "edition": 764,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Sky"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Blue Cyber Jacket"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cybergon"
+    },
+    {
+      "trait_type": "Mask",
+      "value": "Purple Cyber Mask"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "764.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

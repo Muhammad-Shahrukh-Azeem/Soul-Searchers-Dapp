@@ -1,0 +1,45 @@
+{
+  "name": "SEARCHER #481",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/481.png",
+  "edition": 481,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Abstract"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Dia de los Muertos"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Polygon Runner"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Grey Hair"
+    },
+    {
+      "trait_type": "Mask",
+      "value": "Purple Cyber Mask"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "481.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

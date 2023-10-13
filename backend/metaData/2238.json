@@ -1,0 +1,45 @@
+{
+  "name": "SEARCHER #2238",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/2238.png",
+  "edition": 2238,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Polyverse"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Dia de los Muertos"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Owlpha Prime Top"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Bloody Eyes"
+    },
+    {
+      "trait_type": "Helm",
+      "value": "Haaar"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "2238.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

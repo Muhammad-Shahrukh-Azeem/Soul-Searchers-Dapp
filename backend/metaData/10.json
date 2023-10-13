@@ -1,0 +1,28 @@
+{
+  "name": "SEARCHER #10",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "ipfs://QmSJJgeNNb8vRWAwkPEbTQqJKwDw6bxbwYprrBczT2eXFV/10.png",
+  "edition": 10,
+  "attributes": [
+    {
+      "trait_type": "1/1",
+      "value": "Mystery Searcher #10"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "10.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}

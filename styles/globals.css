@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.block {
+    width: 2.5rem;
+    height: 1.25rem;
+    position: relative;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #E4ECFA;
+    transition: background 0.3s ease;
+}
+
+.dot {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    transition: transform 0.3s ease-in-out;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.lock-text {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: color 0.3s ease;
+}
+
+input:checked + .block {
+    background-color: #5628EE;
+}
+
+input:checked + .block ~ .dot {
+    transform: translateX(100%);
+}
+
+input:checked + .block ~ .dot .lock-text {
+    color: #5628EE;
+}
+
+input:not(:checked) + .block ~ .dot .lock-text {
+    color: #99A3BA;
+}
+
+
+
+
+.upgrade-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  .upgrade-animation img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transition: transform 1s, opacity 1s;
+    border-radius: 20px; /* Added rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Added 3D look */
+  }
+  
+  .upgrade-animation .old-image {
+    opacity: 1;
+  }
+  
+  .upgrade-animation .new-image {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  
+  .upgrade-animation.enlarge .old-image {
+    transform: rotateY(0deg) scale(1);
+  }
+  
+  .upgrade-animation.switch .old-image {
+    transform: rotateY(90deg) scale(1.2);
+  }
+  
+  .upgrade-animation.switch .new-image {
+    transform: rotateY(-90deg) scale(1.2);
+  }
+  
+  .upgrade-animation.transition .old-image {
+    opacity: 0;
+    transform: rotateY(90deg) scale(1.2); /* Hide it completely */
+  }
+  
+  .upgrade-animation.transition .new-image {
+    transform: rotateY(0deg) scale(1.2);
+    opacity: 1;
+  }
+  
+  .upgrade-animation.shrink .old-image {
+    opacity: 0; /* Keep it hidden */
+  }
+  
+  .upgrade-animation.shrink .new-image {
+    transform: rotateY(0deg) scale(0.8);
+    opacity: 0;
+  }
+
+  .custom-checkbox {
+    display: none;
+}
+
+.card-label {
+    display: block;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox:checked + .card-label::before {
+    content: '✓';
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+
+.custom-checkbox:checked + .card-label {
+    border-color: #9B51FF99 !important;
+}
+
+

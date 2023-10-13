@@ -1,0 +1,45 @@
+{
+  "name": "SEARCHER #502",
+  "symbol": "SRCHR",
+  "description": "The Searchers are coming to Polygon, prepare yourselves!",
+  "seller_fee_basis_points": 1000,
+  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/502.png",
+  "edition": 502,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Cyber City"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Purple Reign"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Purple Cyber Hoodie"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Mask",
+      "value": "Golden Cyber Mask"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "502.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "3BL4Suzc9tpnkEmT4wZmfv7ZjvasDaxdU1nv25PHiHah",
+        "share": 100
+      }
+    ]
+  }
+}
