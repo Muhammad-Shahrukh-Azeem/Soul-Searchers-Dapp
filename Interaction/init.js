@@ -3,18 +3,22 @@ import ERC721 from "./ERC721.json" assert { type: 'json' };
 import STAKING from "./staking.json" assert { type: 'json' };
 
 
-// let provider = new ethers.providers.JsonRpcProvider("https://polygon-mainnet.g.alchemy.com/v2/_LC-mQ-dmzf-GuyvYVJh0Q_gCM3cbWXR"); // MAINNET
-let provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.g.alchemy.com/v2/dd9EpJa39E2QqmbtgwgXl4MHY0DHkGg3"); // TESTNET
+let provider = new ethers.providers.JsonRpcProvider("https://polygon-mainnet.g.alchemy.com/v2/_LC-mQ-dmzf-GuyvYVJh0Q_gCM3cbWXR"); // MAINNET
+// let provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.g.alchemy.com/v2/dd9EpJa39E2QqmbtgwgXl4MHY0DHkGg3"); // TESTNET
 
 
-let signerOwner = new ethers.Wallet('596b26609d82fcc993cac34827423f28a743f36fd63a900c3aa8123c9c081544', provider);
-// let signerUser = new ethers.Wallet('cb3d7100817f5fd5fb011d0b88e8a895bda71546f0e2b06fe0237cb9988a9c44', provider);
 
 // NEW ADDRESS FOR STAKING = 0xF9103c34E186De1678A4925De749CA9deb5F4659
 
 // NEW ADDRESS FOR STAKING = 0xb9a4e3856Abd141A6CD5aE1D7BD8A5D979B276F5
-export const NFTContractAddress = "0x29e648F05a16190eeFA21F963CB45b13A6c8fa8c";
-export const stakingAddress = "0xb9a4e3856Abd141A6CD5aE1D7BD8A5D979B276F5";
+// export const NFTContractAddress = "0x29e648F05a16190eeFA21F963CB45b13A6c8fa8c"; // Testnet mumbai
+
+export const NFTContractAddress = "0xDCB074190B01A8c08c34866eE972D363C4339D53"; // mainnet poygon
+
+// export const stakingAddress = "0xb9a4e3856Abd141A6CD5aE1D7BD8A5D979B276F5"; // Testnet mumbai
+
+export const stakingAddress = "0x5A4fF7b2d7AD3545E9f80d3831068Daa91609A9C";  // mainnet poygon
+
 
 
 

@@ -4,11 +4,11 @@ import { Network, Alchemy } from "alchemy-sdk";
 
 // dotenv.config();
 const settings = {
-  apiKey: "dd9EpJa39E2QqmbtgwgXl4MHY0DHkGg3", // Replace with your Alchemy API Key.
-  network: Network.MATIC_MUMBAI, // Replace with your network.
+  apiKey: "_LC-mQ-dmzf-GuyvYVJh0Q_gCM3cbWXR", // Replace with your Alchemy API Key.
+  network: Network.MATIC_MAINNET, // Replace with your network.
 };
 
-const contractAddress = "0x29e648f05a16190eefa21f963cb45b13a6c8fa8c";
+const contractAddress = "0xDCB074190B01A8c08c34866eE972D363C4339D53";
 
 export const fetchNFTss = async (walletAddress) => {
 

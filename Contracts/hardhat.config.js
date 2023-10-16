@@ -15,6 +15,10 @@ module.exports = {
     mumbai: {
       url: "https://polygon-mumbai.g.alchemy.com/v2/dd9EpJa39E2QqmbtgwgXl4MHY0DHkGg3",
       accounts: ["5d40d64c12b77c03461a09f91ef78613ca7f2b08695685428ba5fdb0b3e84207"],
+    },
+    polygon: {
+      url: "https://polygon-mainnet.g.alchemy.com/v2/_LC-mQ-dmzf-GuyvYVJh0Q_gCM3cbWXR",
+      accounts: ["-"],
     }
   },
   etherscan: {

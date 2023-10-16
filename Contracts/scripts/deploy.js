@@ -9,11 +9,14 @@
 // 0xb9a4e3856Abd141A6CD5aE1D7BD8A5D979B276F5
 
 
+// Mainnet
+// 0x5A4fF7b2d7AD3545E9f80d3831068Daa91609A9C
+
 const hre = require("hardhat");
 
 async function main() {
 
-  const NFTAddress = '0x29e648F05a16190eeFA21F963CB45b13A6c8fa8c';
+  const NFTAddress = '0xDCB074190B01A8c08c34866eE972D363C4339D53';
   const Lock = await hre.ethers.getContractFactory("NFTStaking");
   const lock = await Lock.deploy(NFTAddress);
 
