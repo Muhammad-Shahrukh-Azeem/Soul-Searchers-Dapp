@@ -8,7 +8,7 @@ const settings = {
   network: Network.MATIC_MAINNET, // Replace with your network.
 };
 
-const contractAddress = "0xDCB074190B01A8c08c34866eE972D363C4339D53";
+const contractAddress = "0xdcb074190b01a8c08c34866ee972d363c4339d53";
 
 export const fetchNFTss = async (walletAddress) => {
 
