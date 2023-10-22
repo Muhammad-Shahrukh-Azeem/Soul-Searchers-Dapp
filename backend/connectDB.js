@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const uri = "mongodb+srv://admin:Magicsoul123@searchersnft.inf2j.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb://admin:Magicsoul123@localhost:27017/test";
 
 const conn = mongoose.connection;
 
