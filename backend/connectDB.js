@@ -18,7 +18,7 @@ const getConnection = async () => {
   }
   console.log("DB Connected");
 };
-
+// "mongodb+srv://admin:Magicsoul123@searchersnft.inf2j.mongodb.net/?retryWrites=true&w=majority"
 
 
 module.exports = {
