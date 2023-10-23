@@ -9,7 +9,7 @@ import WalletConnectProvider from "@walletconnect/web3-provider";
 import '@/styles/globals.css';
 import '@/styles/styles.css';
 
-const chains = [arbitrum, mainnet, polygon, polygonMumbai];
+const chains = [polygon];
 const projectId = '3a9a55fa65c55a359f9fb4a38ac95410';
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId })]);
