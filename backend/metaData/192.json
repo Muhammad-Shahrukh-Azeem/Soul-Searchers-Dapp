@@ -2,7 +2,7 @@
   "name": "SEARCHER #192",
   "description": "The Searchers are coming to Polygon, prepare yourselves!",
   "seller_fee_basis_points": 1000,
-  "image": "https://soul-searchers-staking-complete.vercel.app/api/file/192.png",
+  "image": "https://staking.searchers.gg/api/file/192.png",
   "edition": 192,
   "attributes": [
     {

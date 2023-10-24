@@ -19,7 +19,7 @@ import {
 export default function ArtUpgrade({ signer, connectWallet, disconnectWallet, loading }) {
     const [walletConnected, setWalletConnected] = useState(false);
     const [nfts, setNfts] = useState([]);
-    const URI = "https://soul-searchers-staking-complete.vercel.app/api/file/";
+    const URI = "https://staking.searchers.gg/api/file/";
     const filterLimit = 0;
     const [isUpgrading, setIsUpgrading] = useState(false);
 

@@ -2,7 +2,7 @@
   "name": "SEARCHER #11",
   "description": "The Searchers are coming to Polygon, prepare yourselves!",
   "seller_fee_basis_points": 1000,
-  "image": "ipfs://QmSJJgeNNb8vRWAwkPEbTQqJKwDw6bxbwYprrBczT2eXFV/11.png",
+  "image": "https://staking.searchers.gg/api/file/11.png",
   "edition": 11,
   "attributes": [
     {

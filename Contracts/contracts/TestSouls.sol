@@ -5,7 +5,7 @@ import "erc721a/contracts/ERC721A.sol";
 
 contract TestSouls is ERC721A {
     string public _tokenURISuffix = ".json";
-    string public _currentBaseURI = "https://soul-searchers-staking-complete.vercel.app/api/file";
+    string public _currentBaseURI = "https://staking.searchers.gg/api/file";
 
     constructor() ERC721A("TestSoul", "TS") {}
 

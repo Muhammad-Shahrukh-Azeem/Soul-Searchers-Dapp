@@ -43,9 +43,10 @@ getConnection()
         // await replaceFile(0); // Replace the image for NFT with ID 0
 
         // Delete NFT data
-        // for (let i = 0; i < 1; i++) {
-        //     await deleteFile(`${i}.png`);
-        // }
+        for (let i = 0; i < 2; i++) {
+            await deleteFile(`${i}.json`);
+            await delay(1500);
+        }
 
 
 

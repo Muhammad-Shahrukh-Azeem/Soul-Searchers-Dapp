@@ -39,7 +39,7 @@ export default function Home({ signer, connectWallet }) {
 
 
 
-    // const URI = "https://soul-searchers-staking-complete.vercel.app/api/file/";
+    // const URI = "https://staking.searchers.gg/api/file/";
     const URI = "http://localhost:3000/api/file/";
 
 

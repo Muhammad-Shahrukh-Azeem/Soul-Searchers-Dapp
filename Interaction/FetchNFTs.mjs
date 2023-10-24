@@ -31,5 +31,5 @@ export const fetchNFTss = async (walletAddress) => {
   return [NFTS.items, NFTS.items.length];
 }
 
-// const x = await fetchNFTss('0xc5C228b086E38e5a084f08715CeF35c68e0871C0');
+// const x = await fetchNFTss('0x6C1D8596f7741d053b068261834D8F76A85Ac758');
 // console.log(x);
