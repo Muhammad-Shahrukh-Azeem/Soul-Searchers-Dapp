@@ -183,7 +183,7 @@ export default function ArtUpgrade({ signer, connectWallet, disconnectWallet, lo
                                                         {isUpgrading && (
                                                             <UpgradeAnimation
                                                                 oldImage={`/api/file/${nft.id}.png`}
-                                                                newImage="/Duck.png"
+                                                                newImage={`/api/file2/${nft.id}.png`}
                                                                 onAnimationEnd={handleAnimationEnd}
                                                             />
                                                         )}

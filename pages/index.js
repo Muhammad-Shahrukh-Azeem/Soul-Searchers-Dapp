@@ -199,7 +199,7 @@ export default function Home({ signer, connectWallet }) {
             const nft = nfts.find(nft => nft.id === id);
             if (nft.specialStake) {
                 const canUnstake = await getIfLockingNotRequired(id);
-                if (!canUnstake) {
+                if (!canUnstake && (Number(nft.points) < 19200)) {
                     alert(`Required points not earned yet. You need ${19200 - Number(nft.points)} more`);
                     return;
                 }
